@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.SunPosition</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/sunposition</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Sun Position is a simple tool for getting sun position data. It returns data such as sunrise, sunset, solar noon, and more based on the location provided.</Description>
+    <RepositoryUrl>https://github.com/apiverve/sunposition-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>sun position; sun position api; sun position tool; sun position software; sun position service; sun position library; sun position sdk; sun position code; sun position script; sun position program; sun position application; sun position app; sun position utility; sun position helper; sun position helper tool; sun position helper software; sun position helper service; sun position helper library; sun position helper sdk; sun position helper code; sun position helper script; sun position helper program; sun position helper application; sun position helper app; sun position helper utility; sun position helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
