@@ -1,21 +1,65 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
+using Newtonsoft.Json;
 
 namespace APIVerve
 {
-    using Newtonsoft.Json;
+public class coordinates
+{
+    [JsonProperty("latitude")]
+    public double latitude { get; set; }
+
+    [JsonProperty("longitude")]
+    public double longitude { get; set; }
+
+}
+
+public class sun
+{
+    [JsonProperty("altitude")]
+    public double altitude { get; set; }
+
+    [JsonProperty("azimuth")]
+    public double azimuth { get; set; }
+
+}
+
+public class moon
+{
+    [JsonProperty("altitude")]
+    public double altitude { get; set; }
+
+    [JsonProperty("azimuth")]
+    public double azimuth { get; set; }
+
+    [JsonProperty("distance")]
+    public double distance { get; set; }
+
+}
+
+public class data
+{
+    [JsonProperty("coordinates")]
+    public coordinates coordinates { get; set; }
+
+    [JsonProperty("sun")]
+    public sun sun { get; set; }
+
+    [JsonProperty("moon")]
+    public moon moon { get; set; }
+
+}
 
 public class ResponseObj
 {
     [JsonProperty("status")]
-    public string Status { get; set; }
+    public string status { get; set; }
 
     [JsonProperty("error")]
-    public string Error { get; set; }
+    public object error { get; set; }
 
     [JsonProperty("data")]
-    public object Data { get; set; }
+    public data data { get; set; }
 
 }
 
