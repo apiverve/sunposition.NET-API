@@ -14,7 +14,7 @@
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <PackageProjectUrl>https://apiverve.com/?utm_source=nuget</PackageProjectUrl>
     <SignAssembly>False</SignAssembly>
-    <Description>Sun Position is a simple tool for getting sun position data. It returns data such as sunrise, sunset, solar noon, and more based on the location provided.</Description>
+    <Description>Sun Position is a simple tool for getting sun position data. It returns data such as altitude, azimuth, and distance of the sun from the location provided.</Description>
     <RepositoryUrl>https://github.com/apiverve/sunposition.NET-API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>sun position; sun position api; sun position tool; sun position software; sun position service</PackageTags>
