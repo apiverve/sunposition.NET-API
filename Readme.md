@@ -1,7 +1,7 @@
 Sun Position API
 ============
 
-Sun Position is a simple tool for getting sun position data. It returns data such as sunrise, sunset, solar noon, and more based on the location provided.
+Sun Position is a simple tool for getting sun position data. It returns data such as altitude, azimuth, and distance of the sun from the location provided.
 
 ![Build Status](https://img.shields.io/badge/build-passing-green)
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
@@ -100,13 +100,8 @@ if(response.error != null) {
       "longitude": -122.4194
     },
     "sun": {
-      "altitude": 1.0505073449362108,
-      "azimuth": 1.0215384900847568
-    },
-    "moon": {
-      "altitude": 0.3813624323691614,
-      "azimuth": -1.6142560826235728,
-      "distance": 403432.5920601777
+      "altitude": 0.43529491237244172,
+      "azimuth": -1.713419223287723
     }
   }
 }
