@@ -24,19 +24,6 @@ public class sun
 
 }
 
-public class moon
-{
-    [JsonProperty("altitude")]
-    public double altitude { get; set; }
-
-    [JsonProperty("azimuth")]
-    public double azimuth { get; set; }
-
-    [JsonProperty("distance")]
-    public double distance { get; set; }
-
-}
-
 public class data
 {
     [JsonProperty("coordinates")]
@@ -44,9 +31,6 @@ public class data
 
     [JsonProperty("sun")]
     public sun sun { get; set; }
-
-    [JsonProperty("moon")]
-    public moon moon { get; set; }
 
 }
 
