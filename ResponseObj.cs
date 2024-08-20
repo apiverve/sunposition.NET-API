@@ -12,6 +12,9 @@ public class coordinates
     [JsonProperty("longitude")]
     public double longitude { get; set; }
 
+    [JsonProperty("valid")]
+    public bool valid { get; set; }
+
 }
 
 public class sun
@@ -44,6 +47,9 @@ public class ResponseObj
 
     [JsonProperty("data")]
     public data data { get; set; }
+
+    [JsonProperty("code")]
+    public int code { get; set; }
 
 }
 
