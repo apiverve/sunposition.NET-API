@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new sunpositionQueryOptions {
+var queryOptions = new SunPositionQueryOptions {
   lat = 37.7749,
   lon = -122.4194
 };
@@ -97,13 +97,15 @@ if(response.error != null) {
   "data": {
     "coordinates": {
       "latitude": 37.7749,
-      "longitude": -122.4194
+      "longitude": -122.4194,
+      "valid": true
     },
     "sun": {
-      "altitude": 0.43529491237244172,
-      "azimuth": -1.713419223287723
+      "altitude": -0.54307120867939784,
+      "azimuth": 2.5559735834198039
     }
-  }
+  },
+  "code": 200
 }
 ```
 
