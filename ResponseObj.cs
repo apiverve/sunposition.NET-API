@@ -12,9 +12,6 @@ public class coordinates
     [JsonProperty("longitude")]
     public double longitude { get; set; }
 
-    [JsonProperty("valid")]
-    public bool valid { get; set; }
-
 }
 
 public class sun
