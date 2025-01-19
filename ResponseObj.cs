@@ -26,6 +26,9 @@ public class sun
 
 public class data
 {
+    [JsonProperty("date")]
+    public string date { get; set; }
+
     [JsonProperty("coordinates")]
     public coordinates coordinates { get; set; }
 
