@@ -72,7 +72,8 @@ Using the API client, you can perform requests to the API.
 ```
 var queryOptions = new SunPositionQueryOptions {
   lat = 37.7749,
-  lon = -122.4194
+  lon = -122.4194,
+  date = "01-17-2025"
 };
 ```
 
@@ -95,13 +96,14 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
+    "date": "09-28-2024",
     "coordinates": {
       "latitude": 37.7749,
       "longitude": -122.4194
     },
     "sun": {
-      "altitude": -0.6914736442326237,
-      "azimuth": -2.6370031723759024
+      "altitude": 0.38600258781054186,
+      "azimuth": 1.2006445335300189
     }
   },
   "code": 200
