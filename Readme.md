@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.SunPosition".
-5. Click on the APIVerve.API.SunPosition package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.SunPosition package, click Install.
 
 
 ---
@@ -73,7 +73,7 @@ Using the API client, you can perform requests to the API.
 var queryOptions = new SunPositionQueryOptions {
   lat = 37.7749,
   lon = -122.4194,
-  date = "02-03-2025"
+  date = "02-21-2025"
 };
 ```
 
@@ -96,14 +96,14 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "date": "09-28-2024",
+    "date": "02-20-2025",
     "coordinates": {
       "latitude": 37.7749,
       "longitude": -122.4194
     },
     "sun": {
-      "altitude": 0.38600258781054186,
-      "azimuth": 1.2006445335300189
+      "altitude": 0.34488656913202226,
+      "azimuth": 1.0048051768374293
     }
   },
   "code": 200
@@ -132,7 +132,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
