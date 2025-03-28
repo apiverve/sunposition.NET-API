@@ -73,7 +73,7 @@ Using the API client, you can perform requests to the API.
 var queryOptions = new SunPositionQueryOptions {
   lat = 37.7749,
   lon = -122.4194,
-  date = "02-21-2025"
+  date = "03-27-2025"
 };
 ```
 
