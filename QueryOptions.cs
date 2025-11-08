@@ -5,8 +5,8 @@ using System.Text;
 namespace APIVerve
 {
     public class SunPositionQueryOptions {
-public number lat { get; set; }
-public number lon { get; set; }
+public double lat { get; set; }
+public double lon { get; set; }
 public string date { get; set; }
 }
 }
